@@ -1,0 +1,34 @@
+Field,Description
+student_id,Synthetic identifier; no real student is represented.
+age,"Synthetic age, 14–16."
+class,"Synthetic class, 9 or 10."
+gender,Synthetic demographic value; not used to generate the assessment band or as a model feature.
+Q01,I feel happy and positive about my life. [Emotional wellbeing; positive statement]. Responses are five-point Likert options.
+Q02,I feel worried or anxious about things happening around me. [Emotional wellbeing; negative statement]. Responses are five-point Likert options.
+Q03,"I sometimes feel alone, even when I am surrounded by people. [Emotional wellbeing; negative statement]. Responses are five-point Likert options."
+Q04,"I feel overwhelmed by schoolwork, homework or exams. [Academic wellbeing; negative statement]. Responses are five-point Likert options."
+Q05,I worry about disappointing others with my academic performance. [Academic wellbeing; negative statement]. Responses are five-point Likert options.
+Q06,"I have enough time for my studies, hobbies and myself. [Academic wellbeing; positive statement]. Responses are five-point Likert options."
+Q07,I feel motivated and able to concentrate on my studies. [Academic wellbeing; positive statement]. Responses are five-point Likert options.
+Q08,I feel comfortable talking to my family about things that bother me. [Family and relationships; positive statement]. Responses are five-point Likert options.
+Q09,I feel that my family understands me and my feelings. [Family and relationships; positive statement]. Responses are five-point Likert options.
+Q10,I feel pressured by the expectations my family has of me. [Family and relationships; negative statement]. Responses are five-point Likert options.
+Q11,I feel accepted and included by my friends or classmates. [Friendships and social wellbeing; positive statement]. Responses are five-point Likert options.
+Q12,I sometimes do things I don't want to do just to fit in with others. [Friendships and social wellbeing; negative statement]. Responses are five-point Likert options.
+Q13,I feel safe and respected when I interact with other students. [Friendships and social wellbeing; positive statement]. Responses are five-point Likert options.
+Q14,I wake up feeling refreshed and well-rested. [Physical wellbeing; positive statement]. Responses are five-point Likert options.
+Q15,I have enough energy to enjoy my daily activities. [Physical wellbeing; positive statement]. Responses are five-point Likert options.
+Q16,I feel confident about who I am. [Self-image and confidence; positive statement]. Responses are five-point Likert options.
+Q17,I compare myself with others and sometimes feel less confident. [Self-image and confidence; negative statement]. Responses are five-point Likert options.
+Q18,I feel good about myself when I use social media. [Digital wellbeing; positive statement]. Responses are five-point Likert options.
+Q19,"I find it difficult to put my phone away, even when I want to. [Digital wellbeing; negative statement]. Responses are five-point Likert options."
+Q20,I make enough time for activities that don't involve screens. [Digital wellbeing; positive statement]. Responses are five-point Likert options.
+emotional_wellbeing_score,"Mean of the dimension's item scores, after reverse-coding negative statements. Higher means more positive self-reported indicators in this synthetic dataset."
+academic_wellbeing_score,"Mean of the dimension's item scores, after reverse-coding negative statements. Higher means more positive self-reported indicators in this synthetic dataset."
+family_and_relationships_score,"Mean of the dimension's item scores, after reverse-coding negative statements. Higher means more positive self-reported indicators in this synthetic dataset."
+friendships_and_social_wellbeing_score,"Mean of the dimension's item scores, after reverse-coding negative statements. Higher means more positive self-reported indicators in this synthetic dataset."
+physical_wellbeing_score,"Mean of the dimension's item scores, after reverse-coding negative statements. Higher means more positive self-reported indicators in this synthetic dataset."
+self-image_and_confidence_score,"Mean of the dimension's item scores, after reverse-coding negative statements. Higher means more positive self-reported indicators in this synthetic dataset."
+digital_wellbeing_score,"Mean of the dimension's item scores, after reverse-coding negative statements. Higher means more positive self-reported indicators in this synthetic dataset."
+overall_wellbeing_index_illustrative,"Equal-weight average of the seven dimension scores; illustrative only, not validated."
+illustrative_rule_based_band,Demo band derived from the illustrative index: <2.5 More support may be helpful; 2.5 to <3.7 Some areas may need a check-in; >=3.7 Generally positive indicators. Thresholds are provisional and not clinically validated.

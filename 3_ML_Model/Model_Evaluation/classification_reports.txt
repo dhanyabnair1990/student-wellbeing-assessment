@@ -1,0 +1,42 @@
+
+=================================================================
+Decision Tree
+=================================================================
+                                precision    recall  f1-score   support
+
+ Generally positive indicators       0.60      0.80      0.69        55
+   More support may be helpful       0.67      0.77      0.71       107
+Some areas may need a check-in       0.82      0.71      0.76       238
+
+                      accuracy                           0.73       400
+                     macro avg       0.70      0.76      0.72       400
+                  weighted avg       0.75      0.73      0.74       400
+
+
+=================================================================
+Random Forest
+=================================================================
+                                precision    recall  f1-score   support
+
+ Generally positive indicators       0.96      0.89      0.92        55
+   More support may be helpful       0.95      0.95      0.95       107
+Some areas may need a check-in       0.95      0.97      0.96       238
+
+                      accuracy                           0.95       400
+                     macro avg       0.96      0.94      0.95       400
+                  weighted avg       0.96      0.95      0.95       400
+
+
+=================================================================
+Logistic Regression
+=================================================================
+                                precision    recall  f1-score   support
+
+ Generally positive indicators       0.93      1.00      0.96        55
+   More support may be helpful       0.99      1.00      1.00       107
+Some areas may need a check-in       1.00      0.98      0.99       238
+
+                      accuracy                           0.99       400
+                     macro avg       0.97      0.99      0.98       400
+                  weighted avg       0.99      0.99      0.99       400
+

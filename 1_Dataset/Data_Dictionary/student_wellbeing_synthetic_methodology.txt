@@ -1,0 +1,34 @@
+STUDENT WELLBEING SYNTHETIC DATASET
+===================================
+
+File: student_wellbeing_synthetic_2000.csv
+Rows: 2,000 fully synthetic records
+Audience represented: illustrative ages 14–16, Classes 9–10
+Questions: Q01–Q20, matching the proposed first-person questionnaire.
+
+IMPORTANT LIMITATIONS
+---------------------
+- Every row is artificially generated. No real student data is included.
+- The data must not be described as collected from students, representative of students, or clinically validated.
+- The response patterns are simulated for software development and capstone demonstration only.
+- Gender is generated as a demographic field and is not used to determine answers, scores, or labels.
+- The illustrative wellbeing index and bands are transparent rule-based constructs, not validated measures.
+- Do not present these bands as diagnoses, mental-health screening outcomes, or reliable assessments of real students.
+- A model trained to predict the illustrative band would mainly learn the scoring rules used to create that band. Its accuracy would not demonstrate real-world predictive validity.
+
+SCORING DESIGN
+--------------
+1. Each response is encoded from 1 (Strongly disagree) to 5 (Strongly agree).
+2. Negative/challenge statements are reverse-coded: 1 becomes 5, 2 becomes 4, 3 stays 3, 4 becomes 2, 5 becomes 1.
+3. Within each of the seven dimensions, the item scores are averaged.
+4. The overall illustrative index is the equal-weight average of the seven dimension scores.
+5. Provisional demonstration bands:
+   - Below 2.5: More support may be helpful
+   - 2.5 to below 3.7: Some areas may need a check-in
+   - 3.7 or above: Generally positive indicators
+
+These thresholds are arbitrary demonstration thresholds. They require review and validation before any use with real students.
+
+MODEL DEVELOPMENT RECOMMENDATION
+---------------------------------
+For the next capstone stage, use this dataset to validate the data pipeline, EDA, visualisations, missing-value handling, and app integration. Clearly label any classification exercise as learning to reproduce an illustrative rule-based band. Do not claim it predicts actual wellbeing. For a defensible real-world model, obtain appropriate expert guidance and ethically collected, consented, validated outcome data.

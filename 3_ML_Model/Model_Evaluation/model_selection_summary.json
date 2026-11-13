@@ -1,0 +1,5 @@
+{
+    "best_model_by_macro_f1": "Logistic Regression",
+    "selection_metric": "F1_macro",
+    "note": "This comparison uses synthetic data and an illustrative rule-derived target. It is not evidence of clinical validity or real-world predictive performance."
+}
